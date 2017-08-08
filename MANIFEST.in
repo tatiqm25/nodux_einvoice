@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include nodux_einvoice *.css
+recursive-include nodux_einvoice *.csv
+recursive-include nodux_einvoice *.html
+recursive-include nodux_einvoice *.ico
+recursive-include nodux_einvoice *.js
+recursive-include nodux_einvoice *.json
+recursive-include nodux_einvoice *.md
+recursive-include nodux_einvoice *.png
+recursive-include nodux_einvoice *.py
+recursive-include nodux_einvoice *.svg
+recursive-include nodux_einvoice *.txt
+recursive-exclude nodux_einvoice *.pyc
